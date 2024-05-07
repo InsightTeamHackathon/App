@@ -21,24 +21,24 @@ function Tour() {
       </header>
       {isSidebarOpen && (
         <div className="fixed top-0 right-0 w-48 h-full z-10 shadow-md bg-white sideBarMenuContainer">
-          <button onClick={toggleSidebar} className="absolute top-4 right-4 text-2xl">
-            <img src="/images/icons/close.svg" alt="Close" />
-          </button>
-          <ul className="mt-12 space-y-4" dir="rtl">
-            <li className="border-b border-gray-100 py-2 px-4">
-              <a href="" className="block text-right">سجل منشأتك</a>
-            </li>
-            <li className="border-b border-gray-100 py-2 px-4">
-              <a href="" className="block text-right">سجل كمرشد</a>
-            </li>
-            <li className="border-b border-gray-100 py-2 px-4">
-              <a href="" className="block text-right">سجل كمصور</a>
-            </li>
-            <li className="border-b border-gray-100 py-2 px-4">
-              <a href="" className="block text-right">سجل كسائق</a>
-            </li>
-          </ul>
-        </div>
+            <button onClick={toggleSidebar} className="absolute top-4 right-4 text-2xl">
+              <img src="/images/icons/close.svg" alt="Close" />
+            </button>
+            <ul className="mt-12 space-y-4" dir="rtl">
+              <li className="border-b border-gray-100 py-2 px-4">
+                  <a href="#" onClick={(e) => e.preventDefault()} className="block text-right">سجل منشأتك</a>
+              </li>
+              <li className="border-b border-gray-100 py-2 px-4">
+                  <a href="#" onClick={(e) => e.preventDefault()} className="block text-right">سجل كمرشد</a>
+              </li>
+              <li className="border-b border-gray-100 py-2 px-4">
+                  <a href="#" onClick={(e) => e.preventDefault()} className="block text-right">سجل كمصور</a>
+              </li>
+              <li className="border-b border-gray-100 py-2 px-4">
+                  <a href="#" onClick={(e) => e.preventDefault()} className="block text-right">سجل كسائق</a>
+              </li>
+            </ul>
+          </div> 
       )}
       <h1 className="text-2xl font-bold text-center my-4">تفاصيل رحلتك</h1>
       {data ? (

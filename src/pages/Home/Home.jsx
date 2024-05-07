@@ -79,19 +79,19 @@ function Home() {
             </button>
             <ul className="mt-12 space-y-4" dir="rtl">
               <li className="border-b border-gray-100 py-2 px-4">
-                <a href="" className="block text-right">سجل منشأتك</a>
+                  <a href="#" onClick={(e) => e.preventDefault()} className="block text-right">سجل منشأتك</a>
               </li>
               <li className="border-b border-gray-100 py-2 px-4">
-                <a href="" className="block text-right">سجل كمرشد</a>
+                  <a href="#" onClick={(e) => e.preventDefault()} className="block text-right">سجل كمرشد</a>
               </li>
               <li className="border-b border-gray-100 py-2 px-4">
-                <a href="" className="block text-right">سجل كمصور</a>
+                  <a href="#" onClick={(e) => e.preventDefault()} className="block text-right">سجل كمصور</a>
               </li>
               <li className="border-b border-gray-100 py-2 px-4">
-                <a href="" className="block text-right">سجل كسائق</a>
+                  <a href="#" onClick={(e) => e.preventDefault()} className="block text-right">سجل كسائق</a>
               </li>
             </ul>
-          </div>
+          </div>      
         )}
         <div className="w-full rounded bg-white h-2" dir='rtl'>
           <div className="bg-[#BC1C91] rounded h-2" style={{ width: `${(currentStep / totalSteps) * 100}%` }}></div>
