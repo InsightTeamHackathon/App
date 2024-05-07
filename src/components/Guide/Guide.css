@@ -1,0 +1,12 @@
+.guideQuestion{
+    text-align: center;
+}
+.guideButton{
+    height: 30px;
+    border-radius: 20px;
+    width: 125px;
+    margin: 5px;
+}
+.guideButtonsContainer{
+    justify-content: center;
+}

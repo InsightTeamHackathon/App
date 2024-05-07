@@ -1,0 +1,7 @@
+.buttonOptions-style {
+    border: 1px solid #F0F1F1;
+}
+.buttonOptions-style:hover {
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,6 @@
+.parentDev{
+    overflow-x: hidden;
+}
+.sideBarMenuContainer{
+    transition: width 2s ease-in-out;
+}

@@ -1,0 +1,12 @@
+.vehicleQuestion{
+    text-align: center;
+}
+.vehicleButton{
+    height: 30px;
+    border-radius: 20px;
+    width: 125px;
+    margin: 5px;
+}
+.vehicleButtonsContainer{
+    justify-content: center;
+}

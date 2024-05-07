@@ -1,0 +1,11 @@
+.visitorsButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    color: white;
+    background-color: #BC1C91;
+}

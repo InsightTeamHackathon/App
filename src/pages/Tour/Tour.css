@@ -1,0 +1,15 @@
+.tourCard{
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.tourCard::after{
+    position: absolute;
+    content: "";
+    background-color: #BC1C91;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 8px;
+    bottom: 0;
+    left: 0;
+}
